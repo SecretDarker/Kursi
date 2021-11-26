@@ -6,9 +6,59 @@
     width: 100%;
     height: 100vh;
     background: url("image.png");
+    background-repeat: repeat-x;
 }
-p{
+p1{
     margin-left: 200px;
     color: white;
     font-size: 30px;
+    float: left;
+    margin-top: 40px;
+}
+.txt{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 1000px;
+    float: left;
+    word-spacing: 5px;
+}
+.fck{
+    align-items: center;
+    margin-top: 275px;
+    width: 100%;
+    float: left;
+    color: white;
+    margin-left: 700px;
+    display: block;
+}
+p2{
+    font-weight: 700;
+    font-size: 40px;
+}
+.F{
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.gg{
+    width: 200px;
+    height: 25px;
+    margin-left: 825px;
+    float: left;
+    border: solid;
+    border-width: 2px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.gg:hover{
+    background-color: white;
+    transition: 1s;
+}
+p4{
+    font-size: 20px;
+    font-weight: 500;
 }
