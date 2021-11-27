@@ -83,36 +83,37 @@ h1 {
     margin: 0.67em 0;
 }
 
+
+
 .SERVISES{
     width: 100%;
     height: 600px;
     margin: 0 auto;
     text-align: center;
 }
-h2{
+h2 .SERVISES{
     font-size: 28px;
-    margin-top: 60px;
+    margin-top: 20px;
     margin: 0.67em 0;
 }
 img{
     background-color: black;
     margin: 0.67em 0;
 }
-p .SERVISES{
-    font-size: 10px;
-    margin-top: 15px;
-}
 .servis_cards{
     width: 100%;
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .cards{
     width: 320px;
     height: 250px;
     color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .Kol{
     margin-top: 50PX;
@@ -126,6 +127,7 @@ p .SERVISES{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 110px;
 }
 .Kol:hover{
     transition: 0.35s;
@@ -137,6 +139,13 @@ p2{
     font-size: 50px;
     font-weight: 700;
 }
-h2 .cards{
+h3{
     font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+p8{
+    font-size: 15px;
+    text-align: center;
+    color: black;
 }
